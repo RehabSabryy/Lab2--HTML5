@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Tasks ==> 1- geoLocation "watchPos" , bonus "open in the same html page or in new small window", clearwatch -->
+    <div class="geo">
+        <h1>GeoLocation Task</h1>
+        <button id="location" class="btn btn-primary" onclick="getLocation()">Get Location</button>
+        <button onclick="clearWatch()" class="btn btn-primary" id="clear">Clear Watch</button>
+    </div>
+      <!-- 2- web worker bonus "implement two workers together" -->
+    <div class="web-worker">   
+        <h2>Web Worker</h2>
+        <button id="sum" class="btn btn-primary">Check Sum</button>
+        <button id="change-bg" class="btn btn-primary">Change Background Color</button>
+        <button id="webworker2"  class="btn btn-primary">web-worker 2</button>
+
+    </div>  
+
+    <button id="form" onclick="window.location.href='formTask.html'" class="btn btn-danger">Go To Form Task</button>
+
+    <button id="micro" onclick="window.location.href='micro.html'" class="btn btn-danger">Go To Micro Data Task</button>
+
+        <!-- --------------------------------------------------------------------------------- -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+        <script src="index.js"></script>
+  
+</body>
+</html>
